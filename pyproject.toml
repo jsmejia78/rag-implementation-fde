@@ -1,0 +1,18 @@
+[project]
+name = "rag-implementation-fde"
+version = "0.1.0"
+description = "Simple RAG pipeline over a YouTube transcript (OpenAI embeddings + Qdrant)"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "openai",
+    "qdrant-client",
+    "youtube-transcript-api",
+    "python-dotenv",
+    # notebook execution
+    "jupyter",
+    "nbconvert",
+    "ipykernel",
+]
+
+[tool.uv]
+package = false
