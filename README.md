@@ -59,7 +59,7 @@ The task this notebook solves is described in [TASK.md](TASK.md).
 | `CHUNK_OVERLAP_PCT` | `25` | Overlap between consecutive chunks, as a % of the chunk size |
 | `EMBEDDING_MODEL` | `text-embedding-3-small` | OpenAI embedding model |
 | `TOP_K` | `3` | Chunks retrieved per query |
-| `GENERATION_MODEL` | `gpt-5.6-luna` | OpenAI chat model that writes the answer |
+| `GENERATION_MODEL` | `gpt-4o` | OpenAI chat model that writes the answer |
 
 ## Running it
 
